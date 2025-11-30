@@ -149,42 +149,42 @@ class car:
 
 
 
-class Animal:
-    def sound(self):
-        print("Same Sound")
+# class Animal:
+#     def sound(self):
+#         print("Same Sound")
 
-class Dog(Animal):
-    def sound(self):
-        print("Bark")
+# class Dog(Animal):
+#     def sound(self):
+#         print("Bark")
 
-class Cat(Animal):
-    def sound(self):
-        print("Meow")
+# class Cat(Animal):
+#     def sound(self):
+#         print("Meow")
 
 class Birds:
     def sound(self):
         print("Same Sound")
 
-class Crow(Animal):
+class Crow(Birds):
     def sound(self):
         print("Kaen Kaen")
 
-class Pigeon(Animal):
+class Pigeon(Birds):
     def sound(self):
         print("goorn goorn")
 
-class Duck(Animal):
+class Duck(Birds):
     def sound(self):
         print("Quack Quack")
 
-animal1 = Animal()
-animal1.sound()
+# animal1 = Animal()
+# animal1.sound()
 
-dog1 = Dog()
-dog1.sound()
+# dog1 = Dog()
+# dog1.sound()
 
-cat1 = Cat()
-cat1.sound()
+# cat1 = Cat()
+# cat1.sound()
 
 bird1 = Birds()
 bird1.sound()
